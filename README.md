@@ -1,6 +1,6 @@
 sphincter firmware
 ==================
-arduino firmware for the sphincter door locking system used at OpenLab Augsburg
+arduino firmware for the [sphincter door locking system](https://github.com/openlab-aux/sphincter) used at OpenLab Augsburg
 
 ## building
 The folder structure allows you to use [ino](http://inotool.org/ "project page")
