@@ -234,10 +234,11 @@ void turnLock(int new_position) {
             digitalWrite(direction, LOW);  // motor power off
             position = -1;
             Serial.println(RESPONSE_FAILURE);
+            Timer1.detachInterrupt();
             return;
         }
-
     }
+    Timer1.detachInterrupt();
 
     digitalWrite(direction, LOW); // motor power off
 
